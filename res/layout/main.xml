@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/text"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+    	<SeekBar 
+		android:id="@+id/seekbar7"
+		android:padding="4dp"
+		android:layout_height="40dp"
+		android:thumb="@drawable/seek_thumb_down_arrow" 
+		android:progressDrawable="@drawable/testseek"
+		android:thumbOffset="12dp" 
+		android:layout_width="fill_parent"/>    
+    
+    	<SeekBar 
+		android:id="@+id/seekbar7"
+		android:padding="14dp"
+		android:layout_height="wrap_content" 
+		android:thumb="@drawable/seek_thumb_24" 
+		android:progressDrawable="@drawable/testseek2"
+		android:background="@drawable/map" 
+		android:layout_width="fill_parent"/>      
+    
+    
+	<SeekBar
+	    android:id="@+id/seekbar_default"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="14dp"
+    />	
+    
+	<SeekBar
+	    android:id="@+id/seekbar_thumb_32"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:thumb="@drawable/seek_thumb_32"
+	    android:thumbOffset="0dp"
+	    android:progressDrawable="@drawable/testseek"
+    />    
+    
+	<SeekBar
+	    android:id="@+id/seekbar4"
+		android:layout_width="fill_parent"
+        android:thumb="@drawable/seek_thumb_64"
+	    android:progressDrawable="@drawable/testseek" 
+	    android:layout_height="64dp"/>        
+        
+	<SeekBar
+	    android:id="@+id/seekbar5"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	    
+	    style="@style/MyWidget.SeekBar"/>        
+
+	<SeekBar
+	    android:id="@+id/seekbar"
+	    android:layout_width="fill_parent"
+	    android:thumb="@drawable/seek_thumb_32"
+	    android:progressDrawable="@drawable/testseek" android:layout_height="37px"/>
+	
+	
+
+
+	<SeekBar
+	    android:id="@+id/seekbar2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="32dp"
+    />       
+					        
+</LinearLayout>

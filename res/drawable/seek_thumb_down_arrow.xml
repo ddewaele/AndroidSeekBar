@@ -1,0 +1,19 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- When marker is pressed. -->
+    <item android:state_pressed="true"
+          android:state_window_focused="true"
+          android:drawable="@drawable/arrow_down_24" />
+
+    <item android:state_focused="true"
+          android:state_window_focused="true"
+          android:drawable="@drawable/blue_ball_48" />
+
+    <item android:state_selected="true"
+          android:state_window_focused="true"
+          android:drawable="@drawable/blue_ball_48" />
+
+	<!-- Default image, used when nothing is selected. -->
+    <item android:drawable="@drawable/arrow_down_inner_shadow_24" />
+
+</selector>
